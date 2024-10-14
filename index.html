@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Опрос</h1>
+    <form id="quizForm">
+        <p><strong>1.Какой язык программирования вы используете?</strong></p>
+        <label>
+            <input type="radio" name="question1" value="java"> Java
+        </label><br>
+        <label>
+            <input type="radio" name="question1" value="javascript"> JavaScript
+        </label><br>
+        <label>
+            <input type="radio" name="question1" value="Python"> Python
+        </label><br>
+
+        <button type="button" onclick="submitQuiz()">Отправить</button>
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
